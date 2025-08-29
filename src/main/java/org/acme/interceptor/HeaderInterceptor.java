@@ -16,13 +16,13 @@ import java.util.List;
 @Priority(2020)
 @Interceptor
 @Slf4j
-public class HeaderInterceptorInterceptor {
+public class HeaderInterceptor {
 
     private final HttpHeaders httpHeaders;
     private final List<HeaderValidationHandler> headerValidationHandlers;
 
     @Inject
-    public HeaderInterceptorInterceptor(HttpHeaders httpHeaders, Instance<HeaderValidationHandler> headerValidationHandlers) {
+    public HeaderInterceptor(HttpHeaders httpHeaders, Instance<HeaderValidationHandler> headerValidationHandlers) {
         this.httpHeaders = httpHeaders;
         this.headerValidationHandlers = headerValidationHandlers.stream().toList();
     }
