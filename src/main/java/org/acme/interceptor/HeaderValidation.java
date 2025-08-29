@@ -1,4 +1,4 @@
-package org.acme.resource.interceptor;
+package org.acme.interceptor;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Inherited;

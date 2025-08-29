@@ -6,7 +6,7 @@ import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 import lombok.extern.slf4j.Slf4j;
-import org.acme.resource.interceptor.HeaderValidation;
+import org.acme.interceptor.HeaderValidation;
 
 @Path("/hello")
 @Slf4j

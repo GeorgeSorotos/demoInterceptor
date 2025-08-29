@@ -1,4 +1,4 @@
-package org.acme.resource.interceptor;
+package org.acme.interceptor;
 
 import jakarta.annotation.Priority;
 import jakarta.enterprise.inject.Instance;
@@ -8,7 +8,7 @@ import jakarta.interceptor.Interceptor;
 import jakarta.interceptor.InvocationContext;
 import jakarta.ws.rs.core.HttpHeaders;
 import lombok.extern.slf4j.Slf4j;
-import org.acme.resource.interceptor.handlers.HeaderValidationHandler;
+import org.acme.interceptor.handlers.HeaderValidationHandler;
 
 import java.util.List;
 

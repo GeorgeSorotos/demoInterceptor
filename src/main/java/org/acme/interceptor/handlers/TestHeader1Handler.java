@@ -1,4 +1,4 @@
-package org.acme.resource.interceptor.handlers;
+package org.acme.interceptor.handlers;
 
 import io.quarkus.runtime.util.StringUtil;
 import jakarta.enterprise.context.ApplicationScoped;
